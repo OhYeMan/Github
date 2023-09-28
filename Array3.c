@@ -4,12 +4,12 @@ int main()
     int i;
     char str[10] = {'m', 'y',  'S', 't', 'r'};
     str[2] = '\0';
-    char strNosize[] = "myStr"
+    char strNosize[] = "myStr";
     strNosize[3] = '\0';
 
     printf("C1\n");
-    printf("sos : %d\n",sizeof(str));
-    printf("sosNosize : %d\n",sizeof(strNosize));
+    printf("Size of str : %d\n",sizeof(str));
+    printf("Size of strNosize : %d\n",sizeof(strNosize));
 
     printf("C2\n");
     for(i=0; i<5; i++)
